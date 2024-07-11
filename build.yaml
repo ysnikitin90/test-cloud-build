@@ -1,0 +1,6 @@
+steps:
+  id: test
+  name: 'gcr.io/cloud-builders/docker'
+  args:
+    - 'build'
+    - '.'
